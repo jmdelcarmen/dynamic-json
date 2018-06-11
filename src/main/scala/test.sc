@@ -1,6 +1,4 @@
-val data = "{ \"name\": \"del carmen\", \"languages\": [\"Javascript\", \"Python\", \"Scala\"] } "
-
-val res = parse("{\"marco\":\"del carmen\", \"Marco\": \"Hooters\", \"yolo\": \"swagger\"}")
+val res = parse("{\"marco \":\"del carmen\", \"Marco\": \"Hooters\", \"yolo\": \"swagger\"}")
 
 trait Accumulator[T] {
   val value: Any
